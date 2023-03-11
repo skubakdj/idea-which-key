@@ -2,7 +2,6 @@
     <id>eu.theblob42.idea.whichkey</id>
     <name>Which-Key</name>
     <vendor url="https://github.com/TheBlob42">Tobias Völzel</vendor>
-    <idea-version since-build="201"/>
 
     <description><![CDATA[
     <h2>
@@ -30,15 +29,15 @@
 
     <change-notes><![CDATA[
     <p>
-        <strong>0.6.2</strong>
+        <strong>0.8.0</strong>
     </p>
     <ul>
-        <li>Update log4j dependencies</li>
-        <li>Smaller bug fixes</li>
+        <li>option to not process unmapped keys</li>
+        <li>make plugin toggleable</li>
     </ul>
     ]]></change-notes>
 
-    <version>0.6.2</version>
+    <version>0.8.0</version>
 
     <depends>com.intellij.modules.platform</depends>
     <depends>IdeaVIM</depends>
